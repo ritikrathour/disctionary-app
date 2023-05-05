@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.container{
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+}
+.input_field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+} 
+.input_field input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-bottom: 3px solid aquamarine;
+    font-size: 14px;
+    outline: none;
+}
+.input_field .btn{
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+} 
+.dictionary__result .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.dictionary__result .wrapper i{
+    cursor: pointer;
+    font-size: 20px;
+}
+.dictionary__result .wrapper .title{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.dictionary__result .wrapper .description{
+    font-size: 16px;
+    color: rgba(0,0,0,.5);
+}
+.dictionary__result .description{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+ .border__desscription{
+    padding-left: 15px;
+    border-left: 4px solid aquamarine;
+    font-size: 18px;
+}
